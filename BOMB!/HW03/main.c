@@ -45,7 +45,6 @@ int main()
         for (int i = 0; i < length; i++) { x--; path_x[count] = x; path_y[count] = y; count++; }
         length += 2;
     }
-
     int fuse_end_x = path_x[count - 1];
     int fuse_end_y = path_y[count - 1];
     int bomb_x = fuse_end_x - 7;
@@ -77,3 +76,4 @@ int main()
     moveCursor(10, 20);
     return 0;
 }
+/*머리가 아파요*/
