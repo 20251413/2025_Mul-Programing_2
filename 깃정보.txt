@@ -1,0 +1,8 @@
+git config --list
+
+git config --global user.name "20251413"
+
+git config --global user.email "potato1sgood@gwnu.ac.kr"
+
+
+Push가 안될 경우 제어판에서 권한 삭제 후 시도
